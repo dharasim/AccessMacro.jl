@@ -26,7 +26,3 @@ end
 @test x(C(1.0, [2])) == 1.0 && y(B(1.0, [2])) == [2]
 
 @test x(D(43)) == 43
-
-using PkgDev
-
-PkgDev.generate("AccessMacro", "MIT")
